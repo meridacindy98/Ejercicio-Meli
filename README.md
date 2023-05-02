@@ -14,7 +14,7 @@ satélite debido al campo de asteroides frente a la nave.
 - Spring Boot
 
 ## Host API :computer:
-* https://melimutantes.herokuapp.com
+* https://ejercicio-meli.herokuapp.com
 
 ## Servicios
 * [Servicio mutant](doc/serviceTopSecret.md) : `POST/topsecret/`
