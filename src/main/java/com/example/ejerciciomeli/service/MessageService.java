@@ -2,13 +2,11 @@ package com.example.ejerciciomeli.service;
 
 import com.example.ejerciciomeli.exeption.MessageException;
 import com.example.ejerciciomeli.model.CollectionSatellites;
-
 import com.example.ejerciciomeli.model.Satellite;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.logging.Logger;
 import java.util.stream.Collectors;
 
 @Service
