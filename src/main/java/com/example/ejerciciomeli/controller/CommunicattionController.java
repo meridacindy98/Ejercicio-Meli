@@ -23,10 +23,8 @@ public class CommunicattionController {
         try{
             Spaceship spaceship = communicationService.decryptMessageLocation(satellites);
             return ResponseEntity.status(HttpStatus.OK).body(spaceship);
-        } catch (MessageException messageException){
-            return ResponseEntity.status(HttpStatus.NOT_FOUND).body("Error al intentar determinar el mensaje");
-        } catch (LocationException locationException){
-            return ResponseEntity.status(HttpStatus.NOT_FOUND).body("Error al intentar determinar la posicion de la nave");
+        } catch (MessageException | LocationException e ){
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).body(e.getMessage());
         }
     }
 
