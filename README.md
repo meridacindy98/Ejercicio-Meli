@@ -17,5 +17,5 @@ satélite debido al campo de asteroides frente a la nave.
 * https://ejercicio-meli.herokuapp.com
 
 ## Servicios
-* [Servicio mutant](doc/serviceTopSecret.md) : `POST/topsecret/`
+* [Servicio topSecret](doc/serviceTopSecret.md) : `POST/topsecret/`
 
